@@ -1,0 +1,6 @@
+service : {
+  getPuzzle: () -> (vec nat) query;
+  isSolved: () -> (bool) query;
+  makeMove: (nat) -> (bool);
+  newPuzzle: () -> (vec nat);
+}
